@@ -1,0 +1,7 @@
+HABITACIONES(Num_Habitacion, Tipo_abitacion) Clave: Num_Habitacion
+
+CLIENTE(Nombre, Apellido, Telefono, DNI) Clave: DNI
+
+TIPO_RESERVA(ID, Nombre, Desayuno, Comida, Cena, Bar) Clave: ID
+
+RESERVA(Num_Habitacion, DNI_Cliente, ID_Tipo_Reserva, Hora_Inicio, Hora_Fin, Fecha_Inicio, Fecha_Fin) Clave: Num_Habitacion, DNI_Cliente
